@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './component/Button.jsx';
+import Card from './ui/Card.jsx';
+import Counter from './ui/Counter.jsx';
+import List from './ui/List.jsx';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <p>Oimji, i'm su priti</p>
+    <Button/>
+      <Card
+        name ="Lhey"
+        description = "Pretty ako"
+      />
+
+    <Counter />
+
+    <List/>
+    </>
   );
 }
 
