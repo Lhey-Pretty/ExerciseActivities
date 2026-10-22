@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './component/Button.jsx';
-import Card from './ui/Card.jsx';
-import Counter from './ui/Counter.jsx';
-import List from './ui/List.jsx';
+import Card from './component/ui/Card.jsx';
+import Counter from './component/ui/Counter.jsx';
+import List from './component/ui/List.jsx';
 
 
 function App() {
